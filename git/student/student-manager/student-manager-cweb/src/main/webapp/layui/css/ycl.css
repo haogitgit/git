@@ -1,0 +1,57 @@
+
+html {color: #333; }
+html body {overflow: auto;}
+
+.m-banner {height: 200px;background: #FFF;}
+
+
+.header {height: 65px;}
+.header .logo {position: absolute; left: 0; top: 16px;}
+.header .nav-left {position: absolute; left: 200px; top: 0; padding: 0; background: none;}
+.header .nav-right {position: absolute; right: 0; top: 0; padding: 0; background: none;}
+.header .layui-nav .layui-nav-item {line-height: 65px;}
+.header .layui-nav .layui-nav-item a{padding: 0 20px;}
+.header .avatar {width: 42px;height: 42px;border-radius: 100%;}
+.header cite {margin-left: 10px;}
+
+.admin-header .layui-nav .layui-this:after, 
+.admin-header .layui-nav-bar {top:65px !important;bottom:-5px;background-color: #393D49;}
+
+.layui-nav-item .layui-icon {position: relative;}
+.layui-side .layui-nav-item a cite {padding: 0 10px;}
+.layui-side .layui-nav-item .item {padding-left: 48px;}
+
+
+.footer {padding: 20px 0;line-height: 24px;background-color: #f2f2f2;text-align:center;}
+.footer-top h3 {line-height: 40px;font-size: 24px;color: #5FB878;font-weight: bold}
+.footer-top h3 span {margin: 0 5px;color: #FF563F;}
+.footer-link {}
+.footer-link a {margin:0 20px;line-height: 30px;}
+.layui-layout-admin .admin-footer {padding:15px 0; height: auto}
+
+.admin-login-main {width: 760px;min-height:200px;margin: 10% auto 0;color: rgba(255,255,255,.95);font-size: 0}
+.login-box-left {position: relative;display: inline-block;vertical-align: top;width: 450px;font-size: 14px;}
+.login-info .info-title {margin-bottom: 15px;}
+.login-info .info-title h1 {font-size: 30px;font-weight: 100;}
+.login-info h4 {font-size: 14px;font-weight: 600}
+.login-info .info-list {list-style: none;padding: 0;margin: 20px 0;}
+.login-box-right {position: relative;display: inline-block;vertical-align: top;width: 300px;margin-left: 10px;font-size: 14px;}
+.login-box-right .login-form {background: rgba(255,255,255,.2);border: 1px solid rgba(255,255,255,.3);-moz-box-shadow: 0 3px 0 rgba(12,12,12,.03);-webkit-box-shadow: 0 3px 0 rgba(12,12,12,.03);box-shadow: 0 3px 0 rgba(12,12,12,.03);-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;padding: 30px}
+.login-box-right .login-form .title {margin-bottom: 15px;}
+.login-box-bottom {border-top: solid 1px rgba(255,255,255,.3);margin: 20px 0;padding-top: 15px;font-size:14px;}
+.login-box-bottom p {color: rgba(255,255,255,.95);}
+
+.layui-layout-admin .admin-body {bottom: 84px}
+.admin-table {width: 100%; margin: 10px 0;}
+.admin-table thead {background-color:#f2f2f2; }
+.admin-table th, 
+.admin-table td {padding: 6px 15px; min-height: 20px; line-height: 20px; border:1px solid #ddd; font-size: 14px; font-weight: 400;}
+.admin-table tr:nth-child(even) {background: #fbfbfb;}
+
+.page-title {font-size:14px; margin:20px 0 10px; padding:10px; line-height:30px; border-bottom:1px solid #DFDFDF;}
+
+.layui-main {
+    width: auto;
+    margin: 0 15px;
+    padding-top:70px
+}
